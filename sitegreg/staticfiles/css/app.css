@@ -1,0 +1,84 @@
+body {}
+
+.docom {
+  width:120%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  background-color: #eeeeee;
+  border-color: #000000;
+  border-width:medium;
+  border-style:solid;
+}
+
+.docom  hr {
+  background-color: #aaaaaa;
+}
+
+/*
+.docom {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 5px;
+  color: inherit;
+  background-color: #d5d5d5;
+}
+.docom h1,
+.docom .h1 {
+  color: inherit;
+}
+.docom p {
+  margin-bottom: 1px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.docom > hr {
+  border-top-color: #d5d5d5;
+}*/
+/*.container .docom,
+.container-fluid .docom {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.docom .container {
+  max-width: 100%;
+}*/
+/*@media screen and (min-width: 768px) {
+  .docom {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .docom,
+  .container-fluid .docom {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .docom h1,
+  .docom .h1 {
+    font-size: 63px;
+  }
+}*/
+
+
+/*  .navbar .nav {
+      > li {
+          &.dropdown {*/
+              /* Keep dropdown menu of active menu item always visible */
+/*              &.open,
+              &.active,
+              &.open.active {
+                  > .dropdown-menu {
+                      display: block;
+                  }
+              }*/
+              /* Place dropdown menu of hovered menu item above all other menu items in case they overlap each other */
+/*              &.hover {
+                  > .dropdown-menu {
+                      display: block;
+                      z-index: 9999;
+                  }
+              }
+          }
+      }
+  }*/

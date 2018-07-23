@@ -1,0 +1,190 @@
+body {
+    padding-top: 50px
+}
+
+body>.navbar {
+    -webkit-transition: background-color .3s ease-in;
+    transition: background-color .3s ease-in
+}
+
+@media (min-width:768px) {
+    body>.navbar-transparent {
+        background-color: transparent
+    }
+    body>.navbar-transparent .navbar-nav>.open>a {
+        background-color: transparent!important
+    }
+}
+
+#home {
+    padding-top: 0
+}
+
+#home .navbar-brand {
+    padding: 13.5px 15px 12.5px
+}
+
+#home .navbar-brand>img {
+    display: inline;
+    margin: 0 10px;
+    height: 100%
+}
+
+#banner {
+    min-height: 300px;
+    border-bottom: none
+}
+
+.table-of-contents {
+    margin-top: 1em
+}
+
+.page-header h1 {
+    font-size: 4em
+}
+
+.bs-docs-section {
+    margin-top: 6em
+}
+
+.bs-docs-section h1 {
+    padding-top: 100px
+}
+
+.bs-component {
+    position: relative
+}
+
+.bs-component .modal {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    z-index: 1;
+    display: block
+}
+
+.bs-component .modal-dialog {
+    width: 90%
+}
+
+.bs-component .popover {
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    margin: 20px
+}
+
+#source-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    font-weight: 700
+}
+
+.nav-tabs {
+    margin-bottom: 15px
+}
+
+.progress {
+    margin-bottom: 10px
+}
+
+footer {
+    margin: 5em 0
+}
+
+footer li {
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em
+}
+
+footer p {
+    clear: left;
+    margin-bottom: 0
+}
+
+    Directory
+    Contact
+    Connect
+
+
+
+
+#myCarousel {
+    height: 250px;
+    overflow: hidden;
+    margin-top: 15px;
+    border: 1px solid #ecf0f1;
+    border-radius: 4px;
+}
+
+#myCarousel img {
+    width: 100%;
+}
+
+.navbar .dropdown-menu {
+    padding: 10px;
+    min-width: 180px;
+}
+
+.navbar .btn-group {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.navbar-brand {
+    padding: 5px 5px;
+}
+
+.navbar-brand .logo {
+    height: 40px
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+
+.navbar #search button {
+    padding: 13px;
+}
+
+.navbar #languages button {
+    padding: 10px;
+}
+
+.marketing .col-lg-4 {
+    text-align: center;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+#social {
+    list-style-type: none;
+    }
+    #social i {
+        font-size: 25px;
+    }
+
+.news ul, .news li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.news li {
+  border-bottom: 1px solid grey;
+}
+
+.bs-docs-section {
+    margin-top: 1em;
+}

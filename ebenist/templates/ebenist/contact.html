@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% load static %}
+{% load staticfiles %}
+
+{% block head %}
+<head>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/business-casual.min.css' %}">
+    <link rel="shortcut icon" href="{%  static 'imgsite/favicon.ico' %}">
+    <title>L'atelier de Greg - Contact</title>
+        <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+        
+      <script>
+		//	  oQuickReply.swap('deb');
+      function init() {		
+      // alert("toto");	  
+    map = new OpenLayers.Map("basicMap");
+    map.addLayer(new OpenLayers.Layer.OSM());
+    map.zoomToMaxExtent();			
+     }  
+			   
+      function init2() {
+       alert("toto");
+        map = new OpenLayers.Map("basicMap");
+        var mapnik = new OpenLayers.Layer.OSM();
+        map.addLayer(mapnik);
+        map.setCenter(new OpenLayers.LonLat(13.41,52.52) , 15 ); // Zoom level
+        
+      }
+    </script>
+    
+</head>
+{% endblock %}
+
+{% block content %}
+
+
+
+
+
+        <div class="row" >
+          <div class="col-lg-6">
+          <br/>
+          <h3>
+          Gregory Tadé<br/>
+          8 rue Principale<br/>
+			63270 Manglieu<br/>
+			<br/>
+			Tél : 06...<br/>
+			Mail : gregtade@gmail.com 
+          </h3>
+          <br/>
+          </div>
+          <div class="col-lg-6">
+          <br/>
+          
+			<div id="basicMap" style="height:250px"></div>
+		
+			      <script>
+        map = new OpenLayers.Map("basicMap");
+        var mapnik = new OpenLayers.Layer.OSM();
+        map.addLayer(mapnik);
+        map.setCenter(new OpenLayers.LonLat(3.36,45.61) 
+          .transform(
+            new OpenLayers.Projection("EPSG:4326"), // transformation de WGS 1984
+            new OpenLayers.Projection("EPSG:900913") // en projection Mercator sphérique
+          ), 12 // Zoom level
+        );	
+			</script>
+			
+
+          <br/>
+          <br/>
+ 
+          </div>
+        </div>
+
+
+
+{% endblock %}
+
+

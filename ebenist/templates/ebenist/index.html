@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load static %}
+{% load staticfiles %}
+
+{% block head %}
+<head>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/business-casual.min.css' %}">
+    <link rel="shortcut icon" href="{%  static 'imgsite/favicon.ico' %}">
+    <title>L'atelier de Greg - Accueil</title>
+    
+</head>
+{% endblock %}
+
+{% block content %}
+
+
+
+
+        <div class="row">
+          <div class="col-lg-6">
+          <br/>
+          <h3>
+          Je travaille du bois de qualité pour créer des meubles et petis objets.
+          <br/>
+          Des meubles avec ou sans marquetterie peuvent être réalisés sur commande.
+          <br/>
+          </h3>
+          <br/>
+          </div>
+          <div class="col-lg-6">
+          <br/>
+          <img src="{% static 'img/ebeniste.jpg' %}" width="200" > </a>
+          <br/>
+          <br/>
+          </div>
+        </div>
+
+
+
+{% endblock %}
+
+
